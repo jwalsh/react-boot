@@ -5,3 +5,11 @@ export class HelloMessage extends React.Component {
     return <div>Hello {this.props.name}</div>;
   }
 }
+
+HelloMessage.propTypes = {
+  name: React.PropTypes.string
+}
+
+HelloMessage.defaultProps = {
+  name: "[unknown]"
+}
