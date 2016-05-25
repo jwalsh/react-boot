@@ -1,10 +1,9 @@
+'use strict';
 import React from 'react'
 import './widget.less'
 
-class Widget extends React.Component {
-  render(){
-    return <div className="widget">Widget</div>
-  }
+function Widget(props) {
+  return <div className="widget">Widget</div>
 }
 
 export default Widget;

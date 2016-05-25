@@ -13,7 +13,7 @@
     "build:umd": "./node_modules/cross-env/bin/cross-env.js BABEL_ENV=commonjs NODE_ENV=build ./node_modules/webpack/bin/webpack.js src/index.js dist/react-boot.js",
     "build:umd:min": "./node_modules/cross-env/bin/cross-env.js BABEL_ENV=commonjs NODE_ENV=production ./node_modules/webpack/bin/webpack.js src/index.js dist/react-boot.min.js",
     "build": "NODE_ENV=build npm run build:commonjs && npm run build:es && npm run build:umd && npm run build:umd:min",
-    "development": "NODE_ENV=development nodemon devserver.js --ignore src/ --exec ./node_modules/babel-cli/bin/babel-node.js",
+    "start": "NODE_ENV=development nodemon devserver.js --ignore src/ --exec ./node_modules/babel-cli/bin/babel-node.js",
     "prepublish": "npm run clean && npm run build"
   },
   "repository": {

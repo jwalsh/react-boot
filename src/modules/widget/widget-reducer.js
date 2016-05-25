@@ -1,7 +1,8 @@
+'use strict';
 import { reducer } from 'redux-modifiers'
 
 export default reducer({
-  'foo': (state, action)=>{
+  foo: (state, action)=>{
     return {foo: action.payload}
-  }
-}, {})
+  },
+}, {});

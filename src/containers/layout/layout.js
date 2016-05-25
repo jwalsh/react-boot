@@ -1,9 +1,8 @@
+'use strict';
 import React from 'react'
 
-class Layout extends React.Component {
-  render(){
-    return <div>{this.props.children}</div>
-  }
+function Layout(props) {
+  return <div>{props.children}</div>
 }
 
 export default Layout;
