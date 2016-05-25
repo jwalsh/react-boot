@@ -9,7 +9,6 @@
 
 - http://webpack.github.io/docs/hot-module-replacement-with-webpack.html
 - http://eslint.org/docs/rules/
-
 - http://facebook.github.io/immutable-js/
 
 # Training
@@ -22,6 +21,11 @@
 - Adding defaults and validation 
 - State management 
 - Flux and Redux
+- Redux DevTools
 - ImmutableJS
 - redux-modifiers
 - codemod
+
+# Workflow
+
+- Child widget updates 
